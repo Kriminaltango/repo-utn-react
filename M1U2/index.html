@@ -4,44 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>CV Oscar Torres</title>
   </head>
-  <body style="background-color: #f8f9fa">
-    <h1>Oscar Torres</h1>
-    <h3>Desarrollador Fullstack</h3>
-    <img width="15%" src="./foto cv.jpg" />
 
-    <h4>Edad:</h4>
-    <h3>32</h3>
-    <h3>Vivo en Chacarita - CABA</h3>
-    <h3>¿Qué series me gustan?</h3>
-    <ol>
-      <li>Dexter</li>
-      <li>Sons of Anarchy</li>
-      <li>The Boys</li>
-    </ol>
-    <h3>¿Qué pelis son las que más me gustaron?</h3>
-    <ul>
-      <li>Trainspoting</li>
-      <li>Rockanrola</li>
-      <li>This is England</li>
-    </ul>
-    <h3>Cosas que me gusta hacer</h3>
-    <p>
-      Me gusta juntarme con amigos, ir a comer algo o a un bar a tomar unas
-      cervezas. También juntarnos online en algún juego.
-    </p>
-    <p>
-      Los findes suelo salir en Bicicleta y cada tanto me junto con amigos en
-      algún skatepark para hacer aggressive con los patines.
-    </p>
-    <p>
-      En casa por lo general, veo series, películas o estoy en la PC jugando o
-      en algún curso.
-    </p>
-    <h5>
-      Si querés contactarme podés agregarme en
-      <a href="https://www.linkedin.com/in/oska-torres/">LinkedIn</a>
-    </h5>
+  <body>
+    <header class="flex-container">
+      <div class="info">
+        <h1>Oscar Torres</h1>
+        <h3>Desarrollador Fullstack</h3>
+        <h4>Edad:</h4>
+        <p>32</p>
+        <h3>Vivo en Chacarita - CABA</h3>
+      </div>
+      <div>
+        <img class="foto" alt="foto de oska" src="./foto cv.jpg" />
+      </div>
+    </header>
+    <section class="flex-container gustos1">
+      <div>
+        <h3>¿Qué series me gustan?</h3>
+        <ol>
+          <li>Dexter</li>
+          <li>Sons of Anarchy</li>
+          <li>The Boys</li>
+        </ol>
+      </div>
+      <div>
+        <h3>¿Qué pelis son las que más me gustaron?</h3>
+        <ul>
+          <li>Trainspoting</li>
+          <li>Rockanrola</li>
+          <li>This is England</li>
+        </ul>
+      </div>
+    </section>
+    <section class="gustos2">
+      <h3>Cosas que me gusta hacer</h3>
+      <p>
+        Me gusta juntarme con amigos, ir a comer algo o a un bar a tomar unas
+        cervezas. También juntarnos online en algún juego.
+      </p>
+      <p>
+        Los findes suelo salir en Bicicleta y cada tanto me junto con amigos en
+        algún skatepark para hacer aggressive con los patines.
+      </p>
+      <p>
+        En casa por lo general, veo series, películas o estoy en la PC jugando o
+        en algún curso.
+      </p>
+    </section>
+    <footer>
+      <p class="copyright">
+        Si querés contactarme podés agregarme en
+        <a href="https://www.linkedin.com/in/oska-torres/">LinkedIn</a>
+      </p>
+    </footer>
   </body>
 </html>
