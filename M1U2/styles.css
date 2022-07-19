@@ -82,6 +82,15 @@ header {
     object-fit: cover;
 }
 
+.link-actividades {
+    justify-content: center;
+    display: flex;
+}
+
+.link-box {
+
+}
+
 .copyright {
     text-align: center;
     font-style: italic;
