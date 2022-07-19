@@ -63,6 +63,25 @@ header {
     margin-top: 16px;
 }
 
+.avatars {
+    list-style-type: none;
+}
+
+.avatars li {
+    display : inline;
+}
+
+.avatar {
+    text-align: center;
+    justify-content: center;
+    width: 120pt;
+    height: 120pt;
+    border-radius: 100pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 16px;
+    object-fit: cover;
+}
+
 .copyright {
     text-align: center;
     font-style: italic;
