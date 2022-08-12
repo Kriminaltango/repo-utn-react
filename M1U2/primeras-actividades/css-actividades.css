@@ -32,7 +32,7 @@ h2 {
 
 .ej2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content:center;
 }
 
