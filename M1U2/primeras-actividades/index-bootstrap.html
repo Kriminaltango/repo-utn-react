@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Diplo - React</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV Oscar Torres</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index-bootstrap.html">OskaTango</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              OskaTango
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index-bootstrap.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home sin Bootstrap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/actividades.html"
+                  >Actividades viejas</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="flex-container">
+      <div class="info">
+        <h1>Oscar Torres</h1>
+        <h3>Desarrollador Fullstack</h3>
+        <h4>Edad:</h4>
+        <p>32</p>
+        <h3>Vivo en Chacarita - CABA</h3>
+      </div>
+      <div>
+        <img
+          class="foto rounded-circle"
+          alt="foto de oska"
+          src="./foto cv.jpg"
+        />
+      </div>
+    </header>
+    <section class="d-flex justify-content-center gustos1">
+      <div class="p-2">
+        <h3>¿Qué series me gustan?</h3>
+        <ol>
+          <li>
+            <div class="d-flex align-items-center">
+              <div class="flex-shrink-0">
+                <img
+                  class="avatar"
+                  alt="imagen de dexter"
+                  src="./dexter.jpeg"
+                />
+              </div>
+              <div class="flex-grow-1 ms-3"><h4>Dexter</h4></div>
+            </div>
+          </li>
+          <li>
+            <div class="d-flex align-items-center">
+              <div class="flex-shrink-0">
+                <img
+                  class="avatar"
+                  alt="imagen de sons of anarchy"
+                  src="./SOA.png"
+                />
+              </div>
+              <div class="flex-grow-1 ms-3"><h4>Sons of Anarchy</h4></div>
+            </div>
+          </li>
+          <li>
+            <div class="d-flex align-items-center">
+              <div class="flex-shrink-0">
+                <img
+                  class="avatar"
+                  alt="imagen de the boys"
+                  src="./theboys.jpg"
+                />
+              </div>
+              <div class="flex-grow-1 ms-3"><h4>The Boys</h4></div>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <div class="p-2">
+        <h3>¿Qué pelis son las que más me gustaron?</h3>
+        <ul>
+          <li>Trainspotting</li>
+          <li>Rockanrolla</li>
+          <li>This is England</li>
+        </ul>
+        <ul class="avatars">
+          <li>
+            <img
+              class="avatar"
+              alt="imagen de trainspotting"
+              src="./trainspotting.jpg"
+            />
+          </li>
+          <li>
+            <img
+              class="avatar"
+              alt="imagen de rockanrolla"
+              src="./rockanrolla.jpg"
+            />
+          </li>
+          <li>
+            <img
+              class="avatar"
+              alt="imagen de this is england"
+              src="./TIE.webp"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="gustos2">
+      <h3>Cosas que me gusta hacer</h3>
+      <p>
+        Me gusta juntarme con amigos, ir a comer algo o a un bar a tomar unas
+        cervezas. También juntarnos online en algún juego.
+      </p>
+      <p>
+        Los findes suelo salir en Bicicleta y cada tanto me junto con amigos en
+        algún skatepark para hacer aggressive con los patines.
+      </p>
+      <p>
+        En casa por lo general, veo series, películas o estoy en la PC jugando o
+        en algún curso.
+      </p>
+    </section>
+    <section class="link-actividades">
+      <div class="gustos2 link-box">
+        <h3>
+          Podés ingresar <a href="./actividades.html">ACÁ</a> para ver la tarea
+          de la unidad actual.
+        </h3>
+      </div>
+    </section>
+    <footer>
+      <p class="copyright">
+        Si querés contactarme podés agregarme en
+        <a href="https://www.linkedin.com/in/oska-torres/">LinkedIn</a>
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

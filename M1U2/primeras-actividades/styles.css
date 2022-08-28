@@ -29,11 +29,16 @@ header {
     flex-wrap: wrap;
 }
 
+nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav .navbar-brand {
+    margin-left: 16px;
+}
+
 .gustos1 {
-    margin-top:32px;
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 32px;
 }
 
 .gustos2 {
@@ -54,14 +59,14 @@ header {
 
 
 
-.foto {
+ .foto {
     text-align: center;
     justify-content: center;
     max-width: 200pt;
-    border-radius: 100pt;
+    /* border-radius: 100pt; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 16px;
-}
+} 
 
 .avatars {
     list-style-type: none;
@@ -74,22 +79,19 @@ header {
 .avatar {
     text-align: center;
     justify-content: center;
-    width: 120pt;
-    height: 120pt;
+    width: 96pt;
+    height: 96pt;
     border-radius: 100pt;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 16px;
     object-fit: cover;
-}
+} */
 
 .link-actividades {
     justify-content: center;
     display: flex;
 }
 
-.link-box {
-
-}
 
 .copyright {
     text-align: center;
